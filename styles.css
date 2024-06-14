@@ -53,12 +53,15 @@ a {
     flex-direction: row;
     margin-top: 32px;
     gap: 24px;
+    width: calc(3 * (300px + 24px)); /* change the first number (4) to any other number which will fit to scroll. */ /*can change later*/
+    overflow-x: hidden;
 }
 
 .small-article-img {
     width: 300px;
     height: 300px;
     border-radius: 8px;
+    flex: none;
 }
 
 .small-article {
@@ -66,6 +69,8 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: none;
+    width: 300px;
 }
 
 .small-article-date {
@@ -89,8 +94,31 @@ a {
     border-radius: 20px;
     font-weight: bold;
     cursor: pointer;
+
+    position: relative;
+    left: 75vh;
+    bottom: 25vh;
 }
 
+#back-btn {
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    display: inline-block;
+    width: auto;
+
+    position: relative;
+    right: 75vh;
+    bottom: 29.5vh;
+}
+/* landing page */
 @font-face {
     font-family: Cocogoose-Regular;
     src: url(Cocogoose\ Pro\ Regular\ Trial.ttf);
