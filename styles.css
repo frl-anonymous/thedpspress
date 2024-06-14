@@ -96,7 +96,7 @@ a {
     cursor: pointer;
 
     position: relative;
-    left: 75vh;
+    left: 60vh;
     bottom: 25vh;
 }
 
@@ -115,7 +115,7 @@ a {
     width: auto;
 
     position: relative;
-    right: 75vh;
+    right: 60vh;
     bottom: 29.5vh;
 }
 /* landing page */
