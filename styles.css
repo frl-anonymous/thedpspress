@@ -93,6 +93,7 @@ a {
     padding-right: 10px;
     border-radius: 20px;
     font-weight: bold;
+    color: black;
     cursor: pointer;
 
     position: relative;
@@ -116,7 +117,7 @@ a {
 
     position: relative;
     right: 60vh;
-    bottom: 25vh;
+    bottom: 28.5vh;
 }
 /* landing page */
 @font-face {
