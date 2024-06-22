@@ -660,3 +660,114 @@ a {
     text-align: left;
     width: 100%;
   }
+
+/** vv footer css */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ABOUT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.ABOUTHEADER{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.ABOUTLINKS{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.CONTACT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.CONTACTHEADER{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.CONTACTLINKS{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.SHOP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.SHOPHEADER{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.SHOPLINKS{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.link{
+    opacity: 50%;
+    transition: opacity 0.3s;
+}
+
+.link:hover{
+    opacity: 100%;
+}
+
+.horizontalruling{
+    width: 50%;
+    height: 2px;
+    background-color: white;
+    margin: 0px auto;
+
+    display: flex;
+    
+
+    position: relative;
+    bottom: 20vh;
+}
+
+.ABOUTHEADER,.CONTACTHEADER,.SHOPHEADER{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.instaimage{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    
+    position: relative;
+    bottom: 17vh;
+    left: 25%;
+}
