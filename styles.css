@@ -217,8 +217,9 @@ a {
 
 .arrow1 {
     position: absolute;
-    text-align: center;
+    justify-content: center;
     bottom: 5vh;
+    right:50%;
 }
 
 .maintext {
