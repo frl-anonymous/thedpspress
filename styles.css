@@ -561,7 +561,7 @@ a {
 .wave {
     float: left;
     margin: 20px;
-    margin-left:18%;
+    margin-left:23%;
     animation: wave  ease-in-out 0.5s infinite alternate;
     transform-origin: center -36px;
   }
@@ -570,14 +570,6 @@ a {
     animation-play-state: paused;
     cursor: pointer;
   }
-  
-  .wave img {
-    border: 5px solid #f8f8f8;
-    display: block;
-    width: 300px;
-    height: 400px;
-  }
-  
   .wave figcaption {
     text-align: center;
   }
@@ -613,14 +605,15 @@ a {
     100% { transform: rotate(-5deg); }
   }
   .imgtitle{
-    color: white;
+    color: rgb(180, 176, 176);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:20px;
+    font-size:25px;
   }
   .roles{
     display: flex;
     clear: both;
     text-align: center;
+    color: rgb(180, 176, 176);
   }
   .roletitle{
     font-size: 30px;
